@@ -1,0 +1,2 @@
+In order to check the authorized keys you need to go in the hidden ssh directory
+~/.ssh/authorized_keys
