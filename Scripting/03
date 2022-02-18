@@ -1,15 +1,11 @@
-#!/bin/sh
+ #!/bin/sh
 
-echo "Enter commit message"
-read message
+Branch=$(git symbolic-ref --short -q HEAD)
+
 git add .
-git commit -m"${message}"
-if [ -n "$(git status - porcelain)" ];
-then
- echo "Already up to date"
-else
- git status
- echo "Pushing"
- git push -u origin master
- echo "Job done, consider pushing more often"
-fi
+echo 'Commit message'
+read message
+
+git commit -m"$message"
+git push $branch
+echo "Job done, consider pushing more often"
