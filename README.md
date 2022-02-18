@@ -1,5 +1,5 @@
 # init
-HIVE helsinki school project inviting to recreate various standard C library functions, as well as extra other fucntion might be useful. Or not.
+HIVE Helsinki school project introduction to system, network and commands
 
 ## NETWORK
 
