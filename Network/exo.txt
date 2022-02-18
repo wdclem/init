@@ -1,9 +1,0 @@
-Bonjour,
-
-Ceci est un fichier de test.
-Ici la ligne numero 4.
-
-# ceci pourrait etre un commentaire
-Ici la ligne numero 7.
-
-Au revoir
