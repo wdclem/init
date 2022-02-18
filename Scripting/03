@@ -1,0 +1,11 @@
+ #!/bin/sh
+
+Branch=$(git symbolic-ref --short -q HEAD)
+
+git add .
+echo 'Commit message'
+read message
+
+git commit -m"$message"
+git push $branch
+echo "Job done, consider pushing more often"

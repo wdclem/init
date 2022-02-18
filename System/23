@@ -1,0 +1,3 @@
+To connect yourself with the grapic seesion, you login with username and password inside
+the graphic user interface.
+To connect with ssh you need to type the command : ssh username@host_ip_adress
