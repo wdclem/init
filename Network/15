@@ -1,2 +1,0 @@
-In order to reroute, I need to modify the etc/hosts and add the new adress to the file
-echo '46.19.122.85 intra.42.fr' >> /etc/hosts
